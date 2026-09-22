@@ -1,4 +1,5 @@
 package com.miguel.ecommerce.controller;
+import com.miguel.ecommerce.dto.category.CategoryResponse;
 import com.miguel.ecommerce.model.Category;
 import com.miguel.ecommerce.service.CategoryService;
 
@@ -20,7 +21,7 @@ public class CategoryController {
     }
 
     @GetMapping 
-    public List<Category> getAllCategories(){
+    public List<CategoryResponse> getAllCategories(){
         return categoryService.getAllCategories();
     }  
 }

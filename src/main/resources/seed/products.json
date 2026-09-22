@@ -1,0 +1,37 @@
+[
+  {
+    "name": "iPhone 17",
+    "description": "Apple latest smartphone model",
+    "imageUrl": "https://placehold.co/600x400",
+    "price": 999.99,
+    "category": "Electronics"
+  },
+    {
+    "name": "MacBook Pro",
+    "description": "Apple laptop",
+    "imageUrl": "https://placehold.co/600x400",
+    "price": 1999.99,
+    "category": "Electronics"
+  },
+  {
+    "name": "North Face puffer jacket",
+    "description": "Black puffer jacket, perfect for cold and rainy days",
+    "imageUrl": "https://placehold.co/600x400",
+    "price": 229.99,
+    "category": "Clothing"
+  },
+    {
+    "name": "Wooden spoon",
+    "description": "Spoon made out of wood, perfect for stirring food",
+    "imageUrl": "https://placehold.co/600x400",
+    "price": 3.99,
+    "category": "Home and Kitchen"
+  },
+    {
+    "name": "T-Shirt",
+    "description": "Cotton t-shirt",
+    "imageUrl": "https://placehold.co/600x400",
+    "price": 29.99,
+    "category": "Clothing"
+  }
+]

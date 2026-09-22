@@ -1,5 +1,7 @@
 package com.miguel.ecommerce.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,6 +22,6 @@ public class Product {
     private Double price;
 
     @ManyToOne
-    @JoinColumn(name="category_id", nullable = false)
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 }

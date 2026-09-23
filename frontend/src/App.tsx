@@ -1,26 +1,7 @@
-import { useEffect, useState } from 'react'
-import './App.css'
-import ProductList from './components/ProductList';
+import ProductListScreen from "@/screens/ProductListScreen";
 
-function App() {
-    const [products, setProducts] = useState([]); 
-
-    useEffect(() => {
-        fetch('http://localhost:8080/api/products')
-            .then(response => response.json())
-            .then(data => setProducts(data));
-    }, []);
+export default function App() {
     return (
-        <div>
-            {products.length ? (
-                <div>
-                    <ProductList products={products}/>
-                </div>
-            ): (
-                <p>No products found</p> 
-            )}
-        </div>
+        <ProductListScreen/>
     )
 }
-
-export default App

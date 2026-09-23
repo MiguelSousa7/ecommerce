@@ -1,4 +1,10 @@
-const ProductList = ({products}) => {
+import type { Product } from "@/types/ProductType";
+
+type ProductListProps = {
+  products: Product[];
+};
+
+export default function ProductList ({products} : ProductListProps) {
     return (
         <div className="row">
             {products.map(product => (
@@ -18,5 +24,3 @@ const ProductList = ({products}) => {
         </div>
     )
 }
-
-export default ProductList; 
